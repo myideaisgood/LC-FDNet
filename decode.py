@@ -91,6 +91,7 @@ network_set(networks, color_names, loc_names, set='eval')
 
 # Read in image names
 img_names = os.listdir(os.path.join(DATA_DIR, DATASET, 'test'))
+img_names = sorted(img_names)
 
 # JPEGXL metrics
 jpegxl_avg_bpp = 0

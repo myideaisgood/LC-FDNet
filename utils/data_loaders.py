@@ -21,6 +21,8 @@ class Dataset(torch.utils.data.Dataset):
             if file.endswith('.png'):
                 self.imgs.append(file)
 
+        self.imgs = sorted(self.imgs)
+
         self.transform = transforms.Compose(
             [transforms.ToTensor()]
         )
