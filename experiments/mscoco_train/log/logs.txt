@@ -1,0 +1,372 @@
+[INFO] 2021-12-01 10:15:51,604 	     batch_size:	24
+[INFO] 2021-12-01 10:15:51,604 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-01 10:15:51,604 	      crop_size:	128
+[INFO] 2021-12-01 10:15:51,604 	       data_dir:	dataset/
+[INFO] 2021-12-01 10:15:51,604 	        dataset:	mscoco/
+[INFO] 2021-12-01 10:15:51,604 	     decay_rate:	0.1
+[INFO] 2021-12-01 10:15:51,604 	     decay_step:	1000
+[INFO] 2021-12-01 10:15:51,604 	     decode_dir:	decode_results/
+[INFO] 2021-12-01 10:15:51,605 	    empty_cache:	True
+[INFO] 2021-12-01 10:15:51,605 	     encode_dir:	encode_results/
+[INFO] 2021-12-01 10:15:51,605 	         epochs:	20000
+[INFO] 2021-12-01 10:15:51,605 	experiment_name:	mscoco_train/
+[INFO] 2021-12-01 10:15:51,605 	        gpu_num:	1
+[INFO] 2021-12-01 10:15:51,605 	    hidden_unit:	64
+[INFO] 2021-12-01 10:15:51,605 	      lambda_br:	1.0
+[INFO] 2021-12-01 10:15:51,605 	      lambda_ev:	1.0
+[INFO] 2021-12-01 10:15:51,605 	    lambda_pred:	1.0
+[INFO] 2021-12-01 10:15:51,605 	        log_dir:	log/
+[INFO] 2021-12-01 10:15:51,605 	             lr:	0.001
+[INFO] 2021-12-01 10:15:51,605 	    print_every:	1
+[INFO] 2021-12-01 10:15:51,605 	     save_every:	1
+[INFO] 2021-12-01 10:15:51,605 	        weights:	ckpt.pth
+[INFO] 2021-12-01 10:15:52,164 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-01 10:15:52,180 Parameters in Network U d : 3029312.
+[INFO] 2021-12-01 10:15:52,196 Parameters in Network V d : 3030464.
+[INFO] 2021-12-01 10:15:52,209 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-01 10:15:52,225 Parameters in Network U b : 3032768.
+[INFO] 2021-12-01 10:15:52,242 Parameters in Network V b : 3033920.
+[INFO] 2021-12-01 10:15:52,254 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-01 10:15:52,270 Parameters in Network U c : 3036224.
+[INFO] 2021-12-01 10:15:52,286 Parameters in Network V c : 3037376.
+[INFO] 2021-12-01 12:11:00,770 [Epoch 1/20000] Y Bitrate    d = 7.0381   b = 6.1952   c = 6.0816
+[INFO] 2021-12-01 12:11:00,770 [Epoch 1/20000] U Bitrate    d = 4.9745   b = 3.7496   c = 3.7648
+[INFO] 2021-12-01 12:11:00,770 [Epoch 1/20000] V Bitrate    d = 4.7047   b = 3.6827   c = 3.6837
+[INFO] 2021-12-01 12:11:00,771 [Epoch 1/20000] Total Bitrate = 14.6250   Y = 6.4383   U = 4.1630   V = 4.0237   LR = 0.0010000000
+[INFO] 2021-12-01 12:11:00,969 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-01 13:04:42,582 	     batch_size:	24
+[INFO] 2021-12-01 13:04:42,582 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-01 13:04:42,582 	      crop_size:	128
+[INFO] 2021-12-01 13:04:42,582 	       data_dir:	dataset/
+[INFO] 2021-12-01 13:04:42,582 	        dataset:	mscoco/
+[INFO] 2021-12-01 13:04:42,582 	     decay_rate:	0.1
+[INFO] 2021-12-01 13:04:42,582 	     decay_step:	1000
+[INFO] 2021-12-01 13:04:42,582 	     decode_dir:	decode_results/
+[INFO] 2021-12-01 13:04:42,582 	    empty_cache:	True
+[INFO] 2021-12-01 13:04:42,582 	     encode_dir:	encode_results/
+[INFO] 2021-12-01 13:04:42,582 	         epochs:	20000
+[INFO] 2021-12-01 13:04:42,582 	experiment_name:	mscoco_train/
+[INFO] 2021-12-01 13:04:42,582 	        gpu_num:	1
+[INFO] 2021-12-01 13:04:42,583 	    hidden_unit:	64
+[INFO] 2021-12-01 13:04:42,583 	      lambda_br:	1.0
+[INFO] 2021-12-01 13:04:42,583 	      lambda_ev:	1.0
+[INFO] 2021-12-01 13:04:42,583 	    lambda_pred:	1.0
+[INFO] 2021-12-01 13:04:42,583 	        log_dir:	log/
+[INFO] 2021-12-01 13:04:42,583 	             lr:	0.001
+[INFO] 2021-12-01 13:04:42,583 	    print_every:	1
+[INFO] 2021-12-01 13:04:42,583 	     save_every:	1
+[INFO] 2021-12-01 13:04:42,583 	        weights:	ckpt.pth
+[INFO] 2021-12-01 13:04:43,342 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-01 13:04:43,358 Parameters in Network U d : 3029312.
+[INFO] 2021-12-01 13:04:43,374 Parameters in Network V d : 3030464.
+[INFO] 2021-12-01 13:04:43,387 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-01 13:04:43,403 Parameters in Network U b : 3032768.
+[INFO] 2021-12-01 13:04:43,419 Parameters in Network V b : 3033920.
+[INFO] 2021-12-01 13:04:43,431 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-01 13:04:43,447 Parameters in Network U c : 3036224.
+[INFO] 2021-12-01 13:04:43,463 Parameters in Network V c : 3037376.
+[INFO] 2021-12-01 13:04:51,193 Recovering from experiments/mscoco_train/ckpt/ckpt.pth ...
+[INFO] 2021-12-01 13:04:52,064 Recover completed. Current epoch = #1
+[INFO] 2021-12-01 14:31:55,165 	     batch_size:	24
+[INFO] 2021-12-01 14:31:55,166 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-01 14:31:55,166 	      crop_size:	128
+[INFO] 2021-12-01 14:31:55,166 	       data_dir:	dataset/
+[INFO] 2021-12-01 14:31:55,166 	        dataset:	mscoco/
+[INFO] 2021-12-01 14:31:55,167 	     decay_rate:	0.1
+[INFO] 2021-12-01 14:31:55,167 	     decay_step:	1000
+[INFO] 2021-12-01 14:31:55,167 	     decode_dir:	decode_results/
+[INFO] 2021-12-01 14:31:55,167 	    empty_cache:	True
+[INFO] 2021-12-01 14:31:55,167 	     encode_dir:	encode_results/
+[INFO] 2021-12-01 14:31:55,167 	         epochs:	20000
+[INFO] 2021-12-01 14:31:55,167 	experiment_name:	mscoco_train/
+[INFO] 2021-12-01 14:31:55,167 	        gpu_num:	1
+[INFO] 2021-12-01 14:31:55,167 	    hidden_unit:	64
+[INFO] 2021-12-01 14:31:55,167 	      lambda_br:	1.0
+[INFO] 2021-12-01 14:31:55,167 	      lambda_ev:	1.0
+[INFO] 2021-12-01 14:31:55,167 	    lambda_pred:	1.0
+[INFO] 2021-12-01 14:31:55,167 	        log_dir:	log/
+[INFO] 2021-12-01 14:31:55,167 	             lr:	0.001
+[INFO] 2021-12-01 14:31:55,167 	    print_every:	1
+[INFO] 2021-12-01 14:31:55,167 	     save_every:	1
+[INFO] 2021-12-01 14:31:55,167 	        weights:	ckpt.pth
+[INFO] 2021-12-01 14:31:55,821 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-01 14:31:55,837 Parameters in Network U d : 3029312.
+[INFO] 2021-12-01 14:31:55,853 Parameters in Network V d : 3030464.
+[INFO] 2021-12-01 14:31:55,867 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-01 14:31:55,883 Parameters in Network U b : 3032768.
+[INFO] 2021-12-01 14:31:55,899 Parameters in Network V b : 3033920.
+[INFO] 2021-12-01 14:31:55,911 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-01 14:31:55,927 Parameters in Network U c : 3036224.
+[INFO] 2021-12-01 14:31:55,943 Parameters in Network V c : 3037376.
+[INFO] 2021-12-01 14:32:05,047 Recovering from experiments/mscoco_train/ckpt/ckpt.pth ...
+[INFO] 2021-12-01 14:32:06,052 Recover completed. Current epoch = #1
+[INFO] 2021-12-01 16:27:35,420 [Epoch 2/20000] Y Bitrate    d = 6.8902   b = 5.9957   c = 5.7974
+[INFO] 2021-12-01 16:27:35,420 [Epoch 2/20000] U Bitrate    d = 4.7063   b = 3.3310   c = 3.2526
+[INFO] 2021-12-01 16:27:35,420 [Epoch 2/20000] V Bitrate    d = 4.3440   b = 3.1761   c = 3.1141
+[INFO] 2021-12-01 16:27:35,420 [Epoch 2/20000] Total Bitrate = 13.5358   Y = 6.2278   U = 3.7633   V = 3.5448   LR = 0.0010000000
+[INFO] 2021-12-01 16:27:35,906 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-01 18:23:42,080 [Epoch 3/20000] Y Bitrate    d = 6.8466   b = 5.9398   c = 5.7059
+[INFO] 2021-12-01 18:23:42,081 [Epoch 3/20000] U Bitrate    d = 4.6236   b = 3.2124   c = 3.1152
+[INFO] 2021-12-01 18:23:42,081 [Epoch 3/20000] V Bitrate    d = 4.2269   b = 3.0356   c = 2.9414
+[INFO] 2021-12-01 18:23:42,081 [Epoch 3/20000] Total Bitrate = 13.2158   Y = 6.1641   U = 3.6504   V = 3.4013   LR = 0.0010000000
+[INFO] 2021-12-01 18:23:42,560 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-01 20:27:04,399 [Epoch 4/20000] Y Bitrate    d = 6.8244   b = 5.9113   c = 5.6513
+[INFO] 2021-12-01 20:27:04,400 [Epoch 4/20000] U Bitrate    d = 4.5808   b = 3.1521   c = 3.0392
+[INFO] 2021-12-01 20:27:04,400 [Epoch 4/20000] V Bitrate    d = 4.1674   b = 2.9617   c = 2.8480
+[INFO] 2021-12-01 20:27:04,400 [Epoch 4/20000] Total Bitrate = 13.0455   Y = 6.1290   U = 3.5907   V = 3.3257   LR = 0.0010000000
+[INFO] 2021-12-01 20:27:04,900 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-01 22:32:50,777 [Epoch 5/20000] Y Bitrate    d = 6.8109   b = 5.8924   c = 5.6135
+[INFO] 2021-12-01 22:32:50,777 [Epoch 5/20000] U Bitrate    d = 4.5498   b = 3.1124   c = 2.9959
+[INFO] 2021-12-01 22:32:50,777 [Epoch 5/20000] V Bitrate    d = 4.1265   b = 2.9105   c = 2.7915
+[INFO] 2021-12-01 22:32:50,777 [Epoch 5/20000] Total Bitrate = 12.9345   Y = 6.1056   U = 3.5527   V = 3.2762   LR = 0.0010000000
+[INFO] 2021-12-01 22:32:51,273 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 00:38:57,413 [Epoch 6/20000] Y Bitrate    d = 6.7979   b = 5.8730   c = 5.5783
+[INFO] 2021-12-02 00:38:57,413 [Epoch 6/20000] U Bitrate    d = 4.5273   b = 3.0858   c = 2.9565
+[INFO] 2021-12-02 00:38:57,413 [Epoch 6/20000] V Bitrate    d = 4.1054   b = 2.8864   c = 2.7581
+[INFO] 2021-12-02 00:38:57,413 [Epoch 6/20000] Total Bitrate = 12.8562   Y = 6.0831   U = 3.5232   V = 3.2500   LR = 0.0010000000
+[INFO] 2021-12-02 00:38:57,914 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 02:44:44,310 [Epoch 7/20000] Y Bitrate    d = 6.7997   b = 5.8700   c = 5.5630
+[INFO] 2021-12-02 02:44:44,310 [Epoch 7/20000] U Bitrate    d = 4.5112   b = 3.0702   c = 2.9344
+[INFO] 2021-12-02 02:44:44,310 [Epoch 7/20000] V Bitrate    d = 4.0892   b = 2.8661   c = 2.7350
+[INFO] 2021-12-02 02:44:44,310 [Epoch 7/20000] Total Bitrate = 12.8129   Y = 6.0776   U = 3.5053   V = 3.2301   LR = 0.0010000000
+[INFO] 2021-12-02 02:44:44,790 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 04:50:25,754 [Epoch 8/20000] Y Bitrate    d = 6.7872   b = 5.8567   c = 5.5379
+[INFO] 2021-12-02 04:50:25,754 [Epoch 8/20000] U Bitrate    d = 4.4861   b = 3.0453   c = 2.9105
+[INFO] 2021-12-02 04:50:25,754 [Epoch 8/20000] V Bitrate    d = 4.0647   b = 2.8428   c = 2.7064
+[INFO] 2021-12-02 04:50:25,754 [Epoch 8/20000] Total Bitrate = 12.7459   Y = 6.0606   U = 3.4806   V = 3.2046   LR = 0.0010000000
+[INFO] 2021-12-02 04:50:26,235 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 06:56:03,190 [Epoch 9/20000] Y Bitrate    d = 6.7747   b = 5.8416   c = 5.5139
+[INFO] 2021-12-02 06:56:03,191 [Epoch 9/20000] U Bitrate    d = 4.4686   b = 3.0293   c = 2.8943
+[INFO] 2021-12-02 06:56:03,191 [Epoch 9/20000] V Bitrate    d = 4.0476   b = 2.8212   c = 2.6815
+[INFO] 2021-12-02 06:56:03,191 [Epoch 9/20000] Total Bitrate = 12.6909   Y = 6.0434   U = 3.4641   V = 3.1835   LR = 0.0010000000
+[INFO] 2021-12-02 06:56:03,670 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 09:01:34,043 [Epoch 10/20000] Y Bitrate    d = 6.7753   b = 5.8390   c = 5.5041
+[INFO] 2021-12-02 09:01:34,043 [Epoch 10/20000] U Bitrate    d = 4.4584   b = 3.0167   c = 2.8796
+[INFO] 2021-12-02 09:01:34,043 [Epoch 10/20000] V Bitrate    d = 4.0383   b = 2.8080   c = 2.6667
+[INFO] 2021-12-02 09:01:34,043 [Epoch 10/20000] Total Bitrate = 12.6619   Y = 6.0394   U = 3.4515   V = 3.1710   LR = 0.0010000000
+[INFO] 2021-12-02 09:01:34,525 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 11:07:08,496 [Epoch 11/20000] Y Bitrate    d = 6.7705   b = 5.8341   c = 5.4923
+[INFO] 2021-12-02 11:07:08,496 [Epoch 11/20000] U Bitrate    d = 4.4478   b = 3.0055   c = 2.8704
+[INFO] 2021-12-02 11:07:08,496 [Epoch 11/20000] V Bitrate    d = 4.0284   b = 2.7966   c = 2.6508
+[INFO] 2021-12-02 11:07:08,496 [Epoch 11/20000] Total Bitrate = 12.6321   Y = 6.0323   U = 3.4413   V = 3.1586   LR = 0.0010000000
+[INFO] 2021-12-02 11:07:08,964 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 13:12:55,727 [Epoch 12/20000] Y Bitrate    d = 6.7717   b = 5.8317   c = 5.4864
+[INFO] 2021-12-02 13:12:55,728 [Epoch 12/20000] U Bitrate    d = 4.4427   b = 2.9976   c = 2.8635
+[INFO] 2021-12-02 13:12:55,728 [Epoch 12/20000] V Bitrate    d = 4.0224   b = 2.7884   c = 2.6402
+[INFO] 2021-12-02 13:12:55,728 [Epoch 12/20000] Total Bitrate = 12.6149   Y = 6.0299   U = 3.4346   V = 3.1503   LR = 0.0010000000
+[INFO] 2021-12-02 13:12:56,187 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 15:19:55,029 [Epoch 13/20000] Y Bitrate    d = 6.7651   b = 5.8222   c = 5.4722
+[INFO] 2021-12-02 15:19:55,030 [Epoch 13/20000] U Bitrate    d = 4.4286   b = 2.9859   c = 2.8483
+[INFO] 2021-12-02 15:19:55,030 [Epoch 13/20000] V Bitrate    d = 4.0043   b = 2.7713   c = 2.6198
+[INFO] 2021-12-02 15:19:55,030 [Epoch 13/20000] Total Bitrate = 12.5726   Y = 6.0198   U = 3.4209   V = 3.1318   LR = 0.0010000000
+[INFO] 2021-12-02 15:19:55,526 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 17:28:13,055 [Epoch 14/20000] Y Bitrate    d = 6.7558   b = 5.8133   c = 5.4615
+[INFO] 2021-12-02 17:28:13,055 [Epoch 14/20000] U Bitrate    d = 4.4198   b = 2.9770   c = 2.8387
+[INFO] 2021-12-02 17:28:13,055 [Epoch 14/20000] V Bitrate    d = 4.0001   b = 2.7655   c = 2.6100
+[INFO] 2021-12-02 17:28:13,055 [Epoch 14/20000] Total Bitrate = 12.5473   Y = 6.0102   U = 3.4119   V = 3.1252   LR = 0.0010000000
+[INFO] 2021-12-02 17:28:13,529 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 19:35:51,257 [Epoch 15/20000] Y Bitrate    d = 6.7599   b = 5.8164   c = 5.4629
+[INFO] 2021-12-02 19:35:51,258 [Epoch 15/20000] U Bitrate    d = 4.4159   b = 2.9726   c = 2.8365
+[INFO] 2021-12-02 19:35:51,258 [Epoch 15/20000] V Bitrate    d = 3.9929   b = 2.7575   c = 2.6007
+[INFO] 2021-12-02 19:35:51,258 [Epoch 15/20000] Total Bitrate = 12.5385   Y = 6.0131   U = 3.4083   V = 3.1170   LR = 0.0010000000
+[INFO] 2021-12-02 19:35:51,756 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 21:42:24,803 [Epoch 16/20000] Y Bitrate    d = 6.7602   b = 5.8137   c = 5.4555
+[INFO] 2021-12-02 21:42:24,803 [Epoch 16/20000] U Bitrate    d = 4.4143   b = 2.9713   c = 2.8331
+[INFO] 2021-12-02 21:42:24,803 [Epoch 16/20000] V Bitrate    d = 3.9913   b = 2.7552   c = 2.5978
+[INFO] 2021-12-02 21:42:24,803 [Epoch 16/20000] Total Bitrate = 12.5308   Y = 6.0098   U = 3.4062   V = 3.1148   LR = 0.0010000000
+[INFO] 2021-12-02 21:42:25,284 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-02 23:48:18,270 [Epoch 17/20000] Y Bitrate    d = 6.7525   b = 5.8041   c = 5.4415
+[INFO] 2021-12-02 23:48:18,270 [Epoch 17/20000] U Bitrate    d = 4.4037   b = 2.9598   c = 2.8219
+[INFO] 2021-12-02 23:48:18,270 [Epoch 17/20000] V Bitrate    d = 3.9793   b = 2.7421   c = 2.5832
+[INFO] 2021-12-02 23:48:18,270 [Epoch 17/20000] Total Bitrate = 12.4960   Y = 5.9994   U = 3.3951   V = 3.1015   LR = 0.0010000000
+[INFO] 2021-12-02 23:48:18,760 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 01:54:19,860 [Epoch 18/20000] Y Bitrate    d = 6.7523   b = 5.8040   c = 5.4406
+[INFO] 2021-12-03 01:54:19,861 [Epoch 18/20000] U Bitrate    d = 4.4012   b = 2.9586   c = 2.8213
+[INFO] 2021-12-03 01:54:19,861 [Epoch 18/20000] V Bitrate    d = 3.9778   b = 2.7411   c = 2.5819
+[INFO] 2021-12-03 01:54:19,861 [Epoch 18/20000] Total Bitrate = 12.4929   Y = 5.9989   U = 3.3937   V = 3.1003   LR = 0.0010000000
+[INFO] 2021-12-03 01:54:20,361 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 04:00:21,950 [Epoch 19/20000] Y Bitrate    d = 6.7498   b = 5.7973   c = 5.4295
+[INFO] 2021-12-03 04:00:21,950 [Epoch 19/20000] U Bitrate    d = 4.3932   b = 2.9472   c = 2.8073
+[INFO] 2021-12-03 04:00:21,950 [Epoch 19/20000] V Bitrate    d = 3.9707   b = 2.7306   c = 2.5692
+[INFO] 2021-12-03 04:00:21,950 [Epoch 19/20000] Total Bitrate = 12.4649   Y = 5.9922   U = 3.3825   V = 3.0902   LR = 0.0010000000
+[INFO] 2021-12-03 04:00:22,481 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 06:06:23,987 [Epoch 20/20000] Y Bitrate    d = 6.7477   b = 5.7920   c = 5.4247
+[INFO] 2021-12-03 06:06:23,987 [Epoch 20/20000] U Bitrate    d = 4.3883   b = 2.9442   c = 2.8019
+[INFO] 2021-12-03 06:06:23,987 [Epoch 20/20000] V Bitrate    d = 3.9669   b = 2.7266   c = 2.5631
+[INFO] 2021-12-03 06:06:23,987 [Epoch 20/20000] Total Bitrate = 12.4518   Y = 5.9881   U = 3.3781   V = 3.0855   LR = 0.0010000000
+[INFO] 2021-12-03 06:06:24,484 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 08:12:20,785 [Epoch 21/20000] Y Bitrate    d = 6.7436   b = 5.7908   c = 5.4182
+[INFO] 2021-12-03 08:12:20,785 [Epoch 21/20000] U Bitrate    d = 4.3823   b = 2.9365   c = 2.7942
+[INFO] 2021-12-03 08:12:20,785 [Epoch 21/20000] V Bitrate    d = 3.9543   b = 2.7161   c = 2.5522
+[INFO] 2021-12-03 08:12:20,785 [Epoch 21/20000] Total Bitrate = 12.4294   Y = 5.9842   U = 3.3710   V = 3.0742   LR = 0.0010000000
+[INFO] 2021-12-03 08:12:21,266 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 10:18:10,798 [Epoch 22/20000] Y Bitrate    d = 6.7415   b = 5.7871   c = 5.4155
+[INFO] 2021-12-03 10:18:10,799 [Epoch 22/20000] U Bitrate    d = 4.3804   b = 2.9369   c = 2.7914
+[INFO] 2021-12-03 10:18:10,799 [Epoch 22/20000] V Bitrate    d = 3.9540   b = 2.7180   c = 2.5535
+[INFO] 2021-12-03 10:18:10,799 [Epoch 22/20000] Total Bitrate = 12.4261   Y = 5.9814   U = 3.3696   V = 3.0752   LR = 0.0010000000
+[INFO] 2021-12-03 10:18:11,309 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 12:24:31,182 [Epoch 23/20000] Y Bitrate    d = 6.7444   b = 5.7887   c = 5.4147
+[INFO] 2021-12-03 12:24:31,182 [Epoch 23/20000] U Bitrate    d = 4.3773   b = 2.9318   c = 2.7867
+[INFO] 2021-12-03 12:24:31,182 [Epoch 23/20000] V Bitrate    d = 3.9514   b = 2.7159   c = 2.5488
+[INFO] 2021-12-03 12:24:31,182 [Epoch 23/20000] Total Bitrate = 12.4199   Y = 5.9826   U = 3.3652   V = 3.0721   LR = 0.0010000000
+[INFO] 2021-12-03 12:24:31,758 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 14:31:02,127 [Epoch 24/20000] Y Bitrate    d = 6.7434   b = 5.7863   c = 5.4075
+[INFO] 2021-12-03 14:31:02,128 [Epoch 24/20000] U Bitrate    d = 4.3746   b = 2.9306   c = 2.7830
+[INFO] 2021-12-03 14:31:02,128 [Epoch 24/20000] V Bitrate    d = 3.9492   b = 2.7121   c = 2.5450
+[INFO] 2021-12-03 14:31:02,128 [Epoch 24/20000] Total Bitrate = 12.4105   Y = 5.9791   U = 3.3627   V = 3.0688   LR = 0.0010000000
+[INFO] 2021-12-03 14:31:02,629 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 16:37:35,314 [Epoch 25/20000] Y Bitrate    d = 6.7462   b = 5.7905   c = 5.4112
+[INFO] 2021-12-03 16:37:35,314 [Epoch 25/20000] U Bitrate    d = 4.3675   b = 2.9245   c = 2.7788
+[INFO] 2021-12-03 16:37:35,314 [Epoch 25/20000] V Bitrate    d = 3.9429   b = 2.7062   c = 2.5364
+[INFO] 2021-12-03 16:37:35,314 [Epoch 25/20000] Total Bitrate = 12.4014   Y = 5.9826   U = 3.3569   V = 3.0619   LR = 0.0010000000
+[INFO] 2021-12-03 16:37:35,778 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 18:45:32,813 [Epoch 26/20000] Y Bitrate    d = 6.7409   b = 5.7806   c = 5.3998
+[INFO] 2021-12-03 18:45:32,813 [Epoch 26/20000] U Bitrate    d = 4.3629   b = 2.9211   c = 2.7734
+[INFO] 2021-12-03 18:45:32,813 [Epoch 26/20000] V Bitrate    d = 3.9398   b = 2.7014   c = 2.5307
+[INFO] 2021-12-03 18:45:32,813 [Epoch 26/20000] Total Bitrate = 12.3836   Y = 5.9738   U = 3.3525   V = 3.0573   LR = 0.0010000000
+[INFO] 2021-12-03 18:45:33,398 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 20:53:37,483 [Epoch 27/20000] Y Bitrate    d = 6.7415   b = 5.7825   c = 5.3995
+[INFO] 2021-12-03 20:53:37,483 [Epoch 27/20000] U Bitrate    d = 4.3569   b = 2.9184   c = 2.7689
+[INFO] 2021-12-03 20:53:37,483 [Epoch 27/20000] V Bitrate    d = 3.9365   b = 2.7006   c = 2.5285
+[INFO] 2021-12-03 20:53:37,483 [Epoch 27/20000] Total Bitrate = 12.3778   Y = 5.9745   U = 3.3481   V = 3.0552   LR = 0.0010000000
+[INFO] 2021-12-03 20:53:37,991 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-03 23:01:11,140 [Epoch 28/20000] Y Bitrate    d = 6.7364   b = 5.7751   c = 5.3901
+[INFO] 2021-12-03 23:01:11,140 [Epoch 28/20000] U Bitrate    d = 4.3498   b = 2.9135   c = 2.7626
+[INFO] 2021-12-03 23:01:11,140 [Epoch 28/20000] V Bitrate    d = 3.9351   b = 2.6971   c = 2.5251
+[INFO] 2021-12-03 23:01:11,140 [Epoch 28/20000] Total Bitrate = 12.3616   Y = 5.9672   U = 3.3420   V = 3.0524   LR = 0.0010000000
+[INFO] 2021-12-03 23:01:11,611 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 01:08:19,851 [Epoch 29/20000] Y Bitrate    d = 6.7358   b = 5.7746   c = 5.3894
+[INFO] 2021-12-04 01:08:19,852 [Epoch 29/20000] U Bitrate    d = 4.3439   b = 2.9078   c = 2.7560
+[INFO] 2021-12-04 01:08:19,852 [Epoch 29/20000] V Bitrate    d = 3.9299   b = 2.6921   c = 2.5187
+[INFO] 2021-12-04 01:08:19,852 [Epoch 29/20000] Total Bitrate = 12.3494   Y = 5.9666   U = 3.3359   V = 3.0469   LR = 0.0010000000
+[INFO] 2021-12-04 01:08:20,334 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 03:17:31,241 [Epoch 30/20000] Y Bitrate    d = 6.7383   b = 5.7757   c = 5.3915
+[INFO] 2021-12-04 03:17:31,241 [Epoch 30/20000] U Bitrate    d = 4.3460   b = 2.9116   c = 2.7602
+[INFO] 2021-12-04 03:17:31,241 [Epoch 30/20000] V Bitrate    d = 3.9304   b = 2.6921   c = 2.5177
+[INFO] 2021-12-04 03:17:31,241 [Epoch 30/20000] Total Bitrate = 12.3545   Y = 5.9685   U = 3.3393   V = 3.0467   LR = 0.0010000000
+[INFO] 2021-12-04 03:17:31,723 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 05:26:28,060 [Epoch 31/20000] Y Bitrate    d = 6.7287   b = 5.7662   c = 5.3761
+[INFO] 2021-12-04 05:26:28,060 [Epoch 31/20000] U Bitrate    d = 4.3359   b = 2.9030   c = 2.7498
+[INFO] 2021-12-04 05:26:28,060 [Epoch 31/20000] V Bitrate    d = 3.9220   b = 2.6842   c = 2.5097
+[INFO] 2021-12-04 05:26:28,061 [Epoch 31/20000] Total Bitrate = 12.3252   Y = 5.9570   U = 3.3296   V = 3.0386   LR = 0.0010000000
+[INFO] 2021-12-04 05:26:28,586 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 07:35:16,439 [Epoch 32/20000] Y Bitrate    d = 6.7323   b = 5.7694   c = 5.3799
+[INFO] 2021-12-04 07:35:16,439 [Epoch 32/20000] U Bitrate    d = 4.3342   b = 2.9028   c = 2.7521
+[INFO] 2021-12-04 07:35:16,439 [Epoch 32/20000] V Bitrate    d = 3.9241   b = 2.6887   c = 2.5125
+[INFO] 2021-12-04 07:35:16,439 [Epoch 32/20000] Total Bitrate = 12.3320   Y = 5.9605   U = 3.3297   V = 3.0418   LR = 0.0010000000
+[INFO] 2021-12-04 07:35:16,950 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 09:44:03,147 [Epoch 33/20000] Y Bitrate    d = 6.7306   b = 5.7646   c = 5.3730
+[INFO] 2021-12-04 09:44:03,147 [Epoch 33/20000] U Bitrate    d = 4.3297   b = 2.8981   c = 2.7466
+[INFO] 2021-12-04 09:44:03,147 [Epoch 33/20000] V Bitrate    d = 3.9181   b = 2.6835   c = 2.5059
+[INFO] 2021-12-04 09:44:03,147 [Epoch 33/20000] Total Bitrate = 12.3167   Y = 5.9561   U = 3.3248   V = 3.0359   LR = 0.0010000000
+[INFO] 2021-12-04 09:44:03,666 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 11:53:03,633 [Epoch 34/20000] Y Bitrate    d = 6.7283   b = 5.7632   c = 5.3699
+[INFO] 2021-12-04 11:53:03,633 [Epoch 34/20000] U Bitrate    d = 4.3244   b = 2.8958   c = 2.7455
+[INFO] 2021-12-04 11:53:03,633 [Epoch 34/20000] V Bitrate    d = 3.9119   b = 2.6783   c = 2.5010
+[INFO] 2021-12-04 11:53:03,633 [Epoch 34/20000] Total Bitrate = 12.3061   Y = 5.9538   U = 3.3219   V = 3.0304   LR = 0.0010000000
+[INFO] 2021-12-04 11:53:04,207 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 14:02:22,539 [Epoch 35/20000] Y Bitrate    d = 6.7250   b = 5.7600   c = 5.3664
+[INFO] 2021-12-04 14:02:22,539 [Epoch 35/20000] U Bitrate    d = 4.3217   b = 2.8953   c = 2.7419
+[INFO] 2021-12-04 14:02:22,539 [Epoch 35/20000] V Bitrate    d = 3.9100   b = 2.6771   c = 2.4982
+[INFO] 2021-12-04 14:02:22,539 [Epoch 35/20000] Total Bitrate = 12.2985   Y = 5.9504   U = 3.3196   V = 3.0284   LR = 0.0010000000
+[INFO] 2021-12-04 14:02:23,047 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 16:11:52,759 [Epoch 36/20000] Y Bitrate    d = 6.7278   b = 5.7625   c = 5.3680
+[INFO] 2021-12-04 16:11:52,759 [Epoch 36/20000] U Bitrate    d = 4.3197   b = 2.8921   c = 2.7400
+[INFO] 2021-12-04 16:11:52,759 [Epoch 36/20000] V Bitrate    d = 3.9065   b = 2.6734   c = 2.4954
+[INFO] 2021-12-04 16:11:52,759 [Epoch 36/20000] Total Bitrate = 12.2951   Y = 5.9528   U = 3.3172   V = 3.0251   LR = 0.0010000000
+[INFO] 2021-12-04 16:11:53,315 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 18:21:22,042 [Epoch 37/20000] Y Bitrate    d = 6.7274   b = 5.7608   c = 5.3631
+[INFO] 2021-12-04 18:21:22,042 [Epoch 37/20000] U Bitrate    d = 4.3183   b = 2.8922   c = 2.7383
+[INFO] 2021-12-04 18:21:22,042 [Epoch 37/20000] V Bitrate    d = 3.9060   b = 2.6752   c = 2.4945
+[INFO] 2021-12-04 18:21:22,042 [Epoch 37/20000] Total Bitrate = 12.2919   Y = 5.9504   U = 3.3163   V = 3.0252   LR = 0.0010000000
+[INFO] 2021-12-04 18:21:22,587 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 20:30:25,406 [Epoch 38/20000] Y Bitrate    d = 6.7298   b = 5.7643   c = 5.3663
+[INFO] 2021-12-04 20:30:25,407 [Epoch 38/20000] U Bitrate    d = 4.3172   b = 2.8906   c = 2.7365
+[INFO] 2021-12-04 20:30:25,407 [Epoch 38/20000] V Bitrate    d = 3.9038   b = 2.6700   c = 2.4914
+[INFO] 2021-12-04 20:30:25,407 [Epoch 38/20000] Total Bitrate = 12.2900   Y = 5.9535   U = 3.3148   V = 3.0217   LR = 0.0010000000
+[INFO] 2021-12-04 20:30:25,918 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-04 22:39:17,953 [Epoch 39/20000] Y Bitrate    d = 6.7257   b = 5.7566   c = 5.3601
+[INFO] 2021-12-04 22:39:17,954 [Epoch 39/20000] U Bitrate    d = 4.3126   b = 2.8872   c = 2.7322
+[INFO] 2021-12-04 22:39:17,954 [Epoch 39/20000] V Bitrate    d = 3.9007   b = 2.6687   c = 2.4894
+[INFO] 2021-12-04 22:39:17,954 [Epoch 39/20000] Total Bitrate = 12.2777   Y = 5.9475   U = 3.3106   V = 3.0196   LR = 0.0010000000
+[INFO] 2021-12-04 22:39:18,496 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 00:48:01,578 [Epoch 40/20000] Y Bitrate    d = 6.7288   b = 5.7604   c = 5.3610
+[INFO] 2021-12-05 00:48:01,578 [Epoch 40/20000] U Bitrate    d = 4.3137   b = 2.8883   c = 2.7337
+[INFO] 2021-12-05 00:48:01,578 [Epoch 40/20000] V Bitrate    d = 3.9008   b = 2.6680   c = 2.4883
+[INFO] 2021-12-05 00:48:01,578 [Epoch 40/20000] Total Bitrate = 12.2810   Y = 5.9501   U = 3.3119   V = 3.0190   LR = 0.0010000000
+[INFO] 2021-12-05 00:48:02,176 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 02:56:40,513 [Epoch 41/20000] Y Bitrate    d = 6.7255   b = 5.7540   c = 5.3535
+[INFO] 2021-12-05 02:56:40,513 [Epoch 41/20000] U Bitrate    d = 4.3077   b = 2.8832   c = 2.7287
+[INFO] 2021-12-05 02:56:40,513 [Epoch 41/20000] V Bitrate    d = 3.8958   b = 2.6645   c = 2.4829
+[INFO] 2021-12-05 02:56:40,513 [Epoch 41/20000] Total Bitrate = 12.2653   Y = 5.9443   U = 3.3065   V = 3.0144   LR = 0.0010000000
+[INFO] 2021-12-05 02:56:41,071 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 05:05:09,216 [Epoch 42/20000] Y Bitrate    d = 6.7248   b = 5.7564   c = 5.3548
+[INFO] 2021-12-05 05:05:09,216 [Epoch 42/20000] U Bitrate    d = 4.3066   b = 2.8809   c = 2.7269
+[INFO] 2021-12-05 05:05:09,216 [Epoch 42/20000] V Bitrate    d = 3.8964   b = 2.6627   c = 2.4794
+[INFO] 2021-12-05 05:05:09,216 [Epoch 42/20000] Total Bitrate = 12.2630   Y = 5.9454   U = 3.3048   V = 3.0128   LR = 0.0010000000
+[INFO] 2021-12-05 05:05:09,737 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 07:13:30,527 [Epoch 43/20000] Y Bitrate    d = 6.7274   b = 5.7555   c = 5.3549
+[INFO] 2021-12-05 07:13:30,527 [Epoch 43/20000] U Bitrate    d = 4.3127   b = 2.8867   c = 2.7316
+[INFO] 2021-12-05 07:13:30,527 [Epoch 43/20000] V Bitrate    d = 3.8958   b = 2.6638   c = 2.4816
+[INFO] 2021-12-05 07:13:30,527 [Epoch 43/20000] Total Bitrate = 12.2699   Y = 5.9459   U = 3.3103   V = 3.0137   LR = 0.0010000000
+[INFO] 2021-12-05 07:13:31,037 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 09:21:45,099 [Epoch 44/20000] Y Bitrate    d = 6.7213   b = 5.7484   c = 5.3464
+[INFO] 2021-12-05 09:21:45,099 [Epoch 44/20000] U Bitrate    d = 4.3002   b = 2.8795   c = 2.7237
+[INFO] 2021-12-05 09:21:45,099 [Epoch 44/20000] V Bitrate    d = 3.8906   b = 2.6595   c = 2.4767
+[INFO] 2021-12-05 09:21:45,099 [Epoch 44/20000] Total Bitrate = 12.2488   Y = 5.9387   U = 3.3011   V = 3.0090   LR = 0.0010000000
+[INFO] 2021-12-05 09:21:45,624 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 11:30:04,490 [Epoch 45/20000] Y Bitrate    d = 6.7264   b = 5.7531   c = 5.3508
+[INFO] 2021-12-05 11:30:04,490 [Epoch 45/20000] U Bitrate    d = 4.3039   b = 2.8814   c = 2.7262
+[INFO] 2021-12-05 11:30:04,490 [Epoch 45/20000] V Bitrate    d = 3.8891   b = 2.6591   c = 2.4771
+[INFO] 2021-12-05 11:30:04,491 [Epoch 45/20000] Total Bitrate = 12.2556   Y = 5.9434   U = 3.3038   V = 3.0084   LR = 0.0010000000
+[INFO] 2021-12-05 11:30:05,010 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 13:38:42,642 [Epoch 46/20000] Y Bitrate    d = 6.7223   b = 5.7486   c = 5.3469
+[INFO] 2021-12-05 13:38:42,642 [Epoch 46/20000] U Bitrate    d = 4.2988   b = 2.8779   c = 2.7218
+[INFO] 2021-12-05 13:38:42,642 [Epoch 46/20000] V Bitrate    d = 3.8851   b = 2.6563   c = 2.4712
+[INFO] 2021-12-05 13:38:42,642 [Epoch 46/20000] Total Bitrate = 12.2430   Y = 5.9393   U = 3.2995   V = 3.0042   LR = 0.0010000000
+[INFO] 2021-12-05 13:38:43,173 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 15:49:51,499 [Epoch 47/20000] Y Bitrate    d = 6.7197   b = 5.7449   c = 5.3414
+[INFO] 2021-12-05 15:49:51,499 [Epoch 47/20000] U Bitrate    d = 4.2921   b = 2.8712   c = 2.7155
+[INFO] 2021-12-05 15:49:51,500 [Epoch 47/20000] V Bitrate    d = 3.8795   b = 2.6514   c = 2.4668
+[INFO] 2021-12-05 15:49:51,500 [Epoch 47/20000] Total Bitrate = 12.2275   Y = 5.9353   U = 3.2929   V = 2.9992   LR = 0.0010000000
+[INFO] 2021-12-05 15:49:51,983 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 18:00:57,916 [Epoch 48/20000] Y Bitrate    d = 6.7214   b = 5.7477   c = 5.3454
+[INFO] 2021-12-05 18:00:57,916 [Epoch 48/20000] U Bitrate    d = 4.2959   b = 2.8751   c = 2.7172
+[INFO] 2021-12-05 18:00:57,916 [Epoch 48/20000] V Bitrate    d = 3.8810   b = 2.6523   c = 2.4665
+[INFO] 2021-12-05 18:00:57,916 [Epoch 48/20000] Total Bitrate = 12.2342   Y = 5.9382   U = 3.2961   V = 3.0000   LR = 0.0010000000
+[INFO] 2021-12-05 18:00:58,465 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 20:11:31,636 [Epoch 49/20000] Y Bitrate    d = 6.7205   b = 5.7449   c = 5.3422
+[INFO] 2021-12-05 20:11:31,646 [Epoch 49/20000] U Bitrate    d = 4.2909   b = 2.8720   c = 2.7143
+[INFO] 2021-12-05 20:11:31,646 [Epoch 49/20000] V Bitrate    d = 3.8758   b = 2.6491   c = 2.4641
+[INFO] 2021-12-05 20:11:31,646 [Epoch 49/20000] Total Bitrate = 12.2246   Y = 5.9359   U = 3.2924   V = 2.9963   LR = 0.0010000000
+[INFO] 2021-12-05 20:11:32,191 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-05 22:21:21,124 [Epoch 50/20000] Y Bitrate    d = 6.7174   b = 5.7403   c = 5.3341
+[INFO] 2021-12-05 22:21:21,124 [Epoch 50/20000] U Bitrate    d = 4.2905   b = 2.8704   c = 2.7138
+[INFO] 2021-12-05 22:21:21,125 [Epoch 50/20000] V Bitrate    d = 3.8767   b = 2.6483   c = 2.4638
+[INFO] 2021-12-05 22:21:21,125 [Epoch 50/20000] Total Bitrate = 12.2185   Y = 5.9306   U = 3.2916   V = 2.9963   LR = 0.0010000000
+[INFO] 2021-12-05 22:21:21,620 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-06 00:29:50,165 [Epoch 51/20000] Y Bitrate    d = 6.7229   b = 5.7457   c = 5.3422
+[INFO] 2021-12-06 00:29:50,165 [Epoch 51/20000] U Bitrate    d = 4.2908   b = 2.8713   c = 2.7138
+[INFO] 2021-12-06 00:29:50,165 [Epoch 51/20000] V Bitrate    d = 3.8727   b = 2.6486   c = 2.4618
+[INFO] 2021-12-06 00:29:50,165 [Epoch 51/20000] Total Bitrate = 12.2233   Y = 5.9369   U = 3.2920   V = 2.9944   LR = 0.0010000000
+[INFO] 2021-12-06 00:29:50,701 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-06 02:38:11,796 [Epoch 52/20000] Y Bitrate    d = 6.7220   b = 5.7441   c = 5.3382
+[INFO] 2021-12-06 02:38:11,796 [Epoch 52/20000] U Bitrate    d = 4.2905   b = 2.8713   c = 2.7133
+[INFO] 2021-12-06 02:38:11,796 [Epoch 52/20000] V Bitrate    d = 3.8742   b = 2.6474   c = 2.4591
+[INFO] 2021-12-06 02:38:11,796 [Epoch 52/20000] Total Bitrate = 12.2201   Y = 5.9348   U = 3.2917   V = 2.9936   LR = 0.0010000000
+[INFO] 2021-12-06 02:38:12,303 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-06 04:46:25,840 [Epoch 53/20000] Y Bitrate    d = 6.7231   b = 5.7435   c = 5.3368
+[INFO] 2021-12-06 04:46:25,841 [Epoch 53/20000] U Bitrate    d = 4.2897   b = 2.8714   c = 2.7116
+[INFO] 2021-12-06 04:46:25,841 [Epoch 53/20000] V Bitrate    d = 3.8720   b = 2.6483   c = 2.4611
+[INFO] 2021-12-06 04:46:25,841 [Epoch 53/20000] Total Bitrate = 12.2192   Y = 5.9345   U = 3.2909   V = 2.9938   LR = 0.0010000000
+[INFO] 2021-12-06 04:46:26,322 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-06 06:54:28,992 [Epoch 54/20000] Y Bitrate    d = 6.7155   b = 5.7349   c = 5.3279
+[INFO] 2021-12-06 06:54:28,993 [Epoch 54/20000] U Bitrate    d = 4.2825   b = 2.8652   c = 2.7063
+[INFO] 2021-12-06 06:54:28,993 [Epoch 54/20000] V Bitrate    d = 3.8655   b = 2.6432   c = 2.4573
+[INFO] 2021-12-06 06:54:28,993 [Epoch 54/20000] Total Bitrate = 12.1994   Y = 5.9261   U = 3.2847   V = 2.9887   LR = 0.0010000000
+[INFO] 2021-12-06 06:54:29,494 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...
+[INFO] 2021-12-06 09:02:20,593 [Epoch 55/20000] Y Bitrate    d = 6.7227   b = 5.7443   c = 5.3356
+[INFO] 2021-12-06 09:02:20,594 [Epoch 55/20000] U Bitrate    d = 4.2857   b = 2.8706   c = 2.7087
+[INFO] 2021-12-06 09:02:20,594 [Epoch 55/20000] V Bitrate    d = 3.8647   b = 2.6417   c = 2.4549
+[INFO] 2021-12-06 09:02:20,594 [Epoch 55/20000] Total Bitrate = 12.2096   Y = 5.9342   U = 3.2883   V = 2.9871   LR = 0.0010000000
+[INFO] 2021-12-06 09:02:21,084 Saved checkpoint to experiments/mscoco_train/ckpt/network_V_ckpt.pth ...

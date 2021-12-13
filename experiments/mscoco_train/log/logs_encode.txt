@@ -1,0 +1,253 @@
+[INFO] 2021-12-06 10:10:38,628 	     batch_size:	24
+[INFO] 2021-12-06 10:10:38,628 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-06 10:10:38,628 	      crop_size:	128
+[INFO] 2021-12-06 10:10:38,628 	       data_dir:	dataset/
+[INFO] 2021-12-06 10:10:38,628 	        dataset:	classic/
+[INFO] 2021-12-06 10:10:38,628 	     decay_rate:	0.1
+[INFO] 2021-12-06 10:10:38,628 	     decay_step:	1000
+[INFO] 2021-12-06 10:10:38,628 	     decode_dir:	decode_results/
+[INFO] 2021-12-06 10:10:38,628 	    empty_cache:	True
+[INFO] 2021-12-06 10:10:38,628 	     encode_dir:	encode_results/
+[INFO] 2021-12-06 10:10:38,628 	         epochs:	20000
+[INFO] 2021-12-06 10:10:38,628 	experiment_name:	mscoco_train/
+[INFO] 2021-12-06 10:10:38,628 	        gpu_num:	1
+[INFO] 2021-12-06 10:10:38,628 	    hidden_unit:	64
+[INFO] 2021-12-06 10:10:38,628 	      lambda_br:	1.0
+[INFO] 2021-12-06 10:10:38,628 	      lambda_ev:	1.0
+[INFO] 2021-12-06 10:10:38,628 	    lambda_pred:	1.0
+[INFO] 2021-12-06 10:10:38,628 	        log_dir:	log/
+[INFO] 2021-12-06 10:10:38,629 	             lr:	0.001
+[INFO] 2021-12-06 10:10:38,629 	    print_every:	1
+[INFO] 2021-12-06 10:10:38,629 	     save_every:	1
+[INFO] 2021-12-06 10:10:38,629 	        weights:	ckpt.pth
+[INFO] 2021-12-06 10:10:38,651 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-06 10:10:38,674 Parameters in Network U d : 3029312.
+[INFO] 2021-12-06 10:10:38,692 Parameters in Network V d : 3030464.
+[INFO] 2021-12-06 10:10:38,705 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-06 10:10:38,723 Parameters in Network U b : 3032768.
+[INFO] 2021-12-06 10:10:38,741 Parameters in Network V b : 3033920.
+[INFO] 2021-12-06 10:10:38,755 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-06 10:10:38,773 Parameters in Network U c : 3036224.
+[INFO] 2021-12-06 10:10:38,803 Parameters in Network V c : 3037376.
+[INFO] 2021-12-06 10:10:40,903 Recovering from experiments/mscoco_train/ckpt/ckpt.pth ...
+[INFO] 2021-12-06 10:10:41,038 Recover completed.
+[INFO] 2021-12-06 10:11:59,754 	     batch_size:	24
+[INFO] 2021-12-06 10:11:59,754 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-06 10:11:59,754 	      crop_size:	128
+[INFO] 2021-12-06 10:11:59,754 	       data_dir:	dataset/
+[INFO] 2021-12-06 10:11:59,754 	        dataset:	Kodak/
+[INFO] 2021-12-06 10:11:59,754 	     decay_rate:	0.1
+[INFO] 2021-12-06 10:11:59,754 	     decay_step:	1000
+[INFO] 2021-12-06 10:11:59,754 	     decode_dir:	decode_results/
+[INFO] 2021-12-06 10:11:59,754 	    empty_cache:	True
+[INFO] 2021-12-06 10:11:59,754 	     encode_dir:	encode_results/
+[INFO] 2021-12-06 10:11:59,754 	         epochs:	20000
+[INFO] 2021-12-06 10:11:59,754 	experiment_name:	mscoco_train/
+[INFO] 2021-12-06 10:11:59,754 	        gpu_num:	1
+[INFO] 2021-12-06 10:11:59,754 	    hidden_unit:	64
+[INFO] 2021-12-06 10:11:59,754 	      lambda_br:	1.0
+[INFO] 2021-12-06 10:11:59,754 	      lambda_ev:	1.0
+[INFO] 2021-12-06 10:11:59,754 	    lambda_pred:	1.0
+[INFO] 2021-12-06 10:11:59,754 	        log_dir:	log/
+[INFO] 2021-12-06 10:11:59,755 	             lr:	0.001
+[INFO] 2021-12-06 10:11:59,755 	    print_every:	1
+[INFO] 2021-12-06 10:11:59,755 	     save_every:	1
+[INFO] 2021-12-06 10:11:59,755 	        weights:	ckpt.pth
+[INFO] 2021-12-06 10:11:59,776 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-06 10:11:59,806 Parameters in Network U d : 3029312.
+[INFO] 2021-12-06 10:11:59,833 Parameters in Network V d : 3030464.
+[INFO] 2021-12-06 10:11:59,850 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-06 10:11:59,877 Parameters in Network U b : 3032768.
+[INFO] 2021-12-06 10:11:59,906 Parameters in Network V b : 3033920.
+[INFO] 2021-12-06 10:11:59,923 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-06 10:11:59,941 Parameters in Network U c : 3036224.
+[INFO] 2021-12-06 10:11:59,958 Parameters in Network V c : 3037376.
+[INFO] 2021-12-06 10:12:01,696 Recovering from experiments/mscoco_train/ckpt/ckpt.pth ...
+[INFO] 2021-12-06 10:12:01,855 Recover completed.
+[INFO] 2021-12-06 10:12:08,124 kodim15, Y Bitrate    d = 0.9404   b = 0.8385   c = 0.8172
+[INFO] 2021-12-06 10:12:08,124 kodim15, U Bitrate    d = 0.5299   b = 0.4532   c = 0.4590
+[INFO] 2021-12-06 10:12:08,124 kodim15, V Bitrate    d = 0.6350   b = 0.5288   c = 0.5485
+[INFO] 2021-12-06 10:12:08,124 kodim15, Total Bitrate = 8.3288 = 2.5783 + 5.7505   Y = 2.5961   U = 1.4420   V = 1.7124
+[INFO] 2021-12-06 10:12:13,536 kodim05, Y Bitrate    d = 1.1957   b = 0.9972   c = 0.9446
+[INFO] 2021-12-06 10:12:13,537 kodim05, U Bitrate    d = 0.6898   b = 0.5263   c = 0.5380
+[INFO] 2021-12-06 10:12:13,537 kodim05, V Bitrate    d = 0.6534   b = 0.5394   c = 0.5583
+[INFO] 2021-12-06 10:12:13,537 kodim05, Total Bitrate = 10.0723 = 3.4297 + 6.6426   Y = 3.1374   U = 1.7541   V = 1.7511
+[INFO] 2021-12-06 10:12:19,412 kodim21, Y Bitrate    d = 1.1171   b = 0.9935   c = 0.9819
+[INFO] 2021-12-06 10:12:19,413 kodim21, U Bitrate    d = 0.6536   b = 0.5269   c = 0.5337
+[INFO] 2021-12-06 10:12:19,413 kodim21, V Bitrate    d = 0.5523   b = 0.5078   c = 0.5277
+[INFO] 2021-12-06 10:12:19,413 kodim21, Total Bitrate = 9.3680 = 2.9735 + 6.3945   Y = 3.0925   U = 1.7142   V = 1.5878
+[INFO] 2021-12-06 10:12:25,861 kodim20, Y Bitrate    d = 0.7340   b = 0.6810   c = 0.6690
+[INFO] 2021-12-06 10:12:25,861 kodim20, U Bitrate    d = 0.6654   b = 0.6073   c = 0.6143
+[INFO] 2021-12-06 10:12:25,861 kodim20, V Bitrate    d = 0.4904   b = 0.4440   c = 0.4788
+[INFO] 2021-12-06 10:12:25,861 kodim20, Total Bitrate = 7.5222 = 2.1379 + 5.3843   Y = 2.0841   U = 1.8870   V = 1.4132
+[INFO] 2021-12-06 10:12:32,196 kodim12, Y Bitrate    d = 0.9888   b = 0.8140   c = 0.8110
+[INFO] 2021-12-06 10:12:32,196 kodim12, U Bitrate    d = 0.5072   b = 0.4332   c = 0.4417
+[INFO] 2021-12-06 10:12:32,196 kodim12, V Bitrate    d = 0.5223   b = 0.4879   c = 0.4998
+[INFO] 2021-12-06 10:12:32,196 kodim12, Total Bitrate = 7.9088 = 2.4031 + 5.5057   Y = 2.6137   U = 1.3820   V = 1.5100
+[INFO] 2021-12-06 10:12:38,574 kodim23, Y Bitrate    d = 0.8156   b = 0.7589   c = 0.7498
+[INFO] 2021-12-06 10:12:38,574 kodim23, U Bitrate    d = 0.5395   b = 0.4698   c = 0.4761
+[INFO] 2021-12-06 10:12:38,574 kodim23, V Bitrate    d = 0.5594   b = 0.4981   c = 0.5212
+[INFO] 2021-12-06 10:12:38,575 kodim23, Total Bitrate = 7.9674 = 2.5789 + 5.3885   Y = 2.3242   U = 1.4855   V = 1.5788
+[INFO] 2021-12-06 10:12:45,123 kodim02, Y Bitrate    d = 1.0239   b = 0.8691   c = 0.8724
+[INFO] 2021-12-06 10:12:45,123 kodim02, U Bitrate    d = 0.5626   b = 0.4012   c = 0.4289
+[INFO] 2021-12-06 10:12:45,123 kodim02, V Bitrate    d = 0.7165   b = 0.5388   c = 0.5710
+[INFO] 2021-12-06 10:12:45,123 kodim02, Total Bitrate = 8.6769 = 2.6926 + 5.9843   Y = 2.7653   U = 1.3927   V = 1.8263
+[INFO] 2021-12-06 10:12:50,727 kodim08, Y Bitrate    d = 1.3716   b = 1.0946   c = 1.0695
+[INFO] 2021-12-06 10:12:50,727 kodim08, U Bitrate    d = 0.7565   b = 0.5541   c = 0.5648
+[INFO] 2021-12-06 10:12:50,727 kodim08, V Bitrate    d = 0.7096   b = 0.5463   c = 0.5686
+[INFO] 2021-12-06 10:12:50,727 kodim08, Total Bitrate = 10.5988 = 3.3632 + 7.2356   Y = 3.5356   U = 1.8754   V = 1.8246
+[INFO] 2021-12-06 10:12:56,616 kodim16, Y Bitrate    d = 1.0751   b = 0.8641   c = 0.8598
+[INFO] 2021-12-06 10:12:56,616 kodim16, U Bitrate    d = 0.5385   b = 0.4291   c = 0.4507
+[INFO] 2021-12-06 10:12:56,616 kodim16, V Bitrate    d = 0.4759   b = 0.4593   c = 0.4748
+[INFO] 2021-12-06 10:12:56,616 kodim16, Total Bitrate = 8.1726 = 2.5455 + 5.6271   Y = 2.7989   U = 1.4183   V = 1.4100
+[INFO] 2021-12-06 10:13:01,971 kodim04, Y Bitrate    d = 0.9938   b = 0.8821   c = 0.8672
+[INFO] 2021-12-06 10:13:01,971 kodim04, U Bitrate    d = 0.5280   b = 0.4266   c = 0.4846
+[INFO] 2021-12-06 10:13:01,971 kodim04, V Bitrate    d = 0.6679   b = 0.5525   c = 0.6629
+[INFO] 2021-12-06 10:13:01,971 kodim04, Total Bitrate = 8.7305 = 2.6649 + 6.0656   Y = 2.7432   U = 1.4391   V = 1.8833
+[INFO] 2021-12-06 10:13:07,700 kodim22, Y Bitrate    d = 1.1292   b = 0.9706   c = 0.9632
+[INFO] 2021-12-06 10:13:07,701 kodim22, U Bitrate    d = 0.6991   b = 0.5527   c = 0.5645
+[INFO] 2021-12-06 10:13:07,701 kodim22, V Bitrate    d = 0.6526   b = 0.5567   c = 0.5779
+[INFO] 2021-12-06 10:13:07,701 kodim22, Total Bitrate = 9.9048 = 3.2383 + 6.6665   Y = 3.0630   U = 1.8163   V = 1.7872
+[INFO] 2021-12-06 10:13:13,118 kodim11, Y Bitrate    d = 1.1439   b = 0.9326   c = 0.9205
+[INFO] 2021-12-06 10:13:13,118 kodim11, U Bitrate    d = 0.5210   b = 0.4103   c = 0.4280
+[INFO] 2021-12-06 10:13:13,118 kodim11, V Bitrate    d = 0.6059   b = 0.4977   c = 0.5061
+[INFO] 2021-12-06 10:13:13,118 kodim11, Total Bitrate = 8.7539 = 2.7880 + 5.9659   Y = 2.9969   U = 1.3593   V = 1.6097
+[INFO] 2021-12-06 10:13:18,725 kodim13, Y Bitrate    d = 1.4791   b = 1.3217   c = 1.3053
+[INFO] 2021-12-06 10:13:18,725 kodim13, U Bitrate    d = 0.7648   b = 0.5948   c = 0.6081
+[INFO] 2021-12-06 10:13:18,726 kodim13, V Bitrate    d = 0.6373   b = 0.5671   c = 0.5721
+[INFO] 2021-12-06 10:13:18,726 kodim13, Total Bitrate = 11.5057 = 3.6554 + 7.8503   Y = 4.1061   U = 1.9677   V = 1.7766
+[INFO] 2021-12-06 10:13:24,255 kodim17, Y Bitrate    d = 0.9470   b = 0.8838   c = 0.8527
+[INFO] 2021-12-06 10:13:24,255 kodim17, U Bitrate    d = 0.5495   b = 0.4199   c = 0.5438
+[INFO] 2021-12-06 10:13:24,255 kodim17, V Bitrate    d = 0.5154   b = 0.4773   c = 0.5800
+[INFO] 2021-12-06 10:13:24,255 kodim17, Total Bitrate = 8.2742 = 2.5049 + 5.7694   Y = 2.6836   U = 1.5131   V = 1.5727
+[INFO] 2021-12-06 10:13:29,828 kodim10, Y Bitrate    d = 0.9522   b = 0.8457   c = 0.8350
+[INFO] 2021-12-06 10:13:29,828 kodim10, U Bitrate    d = 0.5823   b = 0.4477   c = 0.5541
+[INFO] 2021-12-06 10:13:29,828 kodim10, V Bitrate    d = 0.5779   b = 0.4855   c = 0.6114
+[INFO] 2021-12-06 10:13:29,828 kodim10, Total Bitrate = 8.3783 = 2.4865 + 5.8918   Y = 2.6329   U = 1.5841   V = 1.6748
+[INFO] 2021-12-06 10:13:35,627 kodim01, Y Bitrate    d = 1.3934   b = 1.1416   c = 1.1247
+[INFO] 2021-12-06 10:13:35,627 kodim01, U Bitrate    d = 0.5928   b = 0.4546   c = 0.4710
+[INFO] 2021-12-06 10:13:35,627 kodim01, V Bitrate    d = 0.6250   b = 0.5149   c = 0.5358
+[INFO] 2021-12-06 10:13:35,627 kodim01, Total Bitrate = 9.8864 = 3.0325 + 6.8539   Y = 3.6596   U = 1.5185   V = 1.6758
+[INFO] 2021-12-06 10:13:40,737 kodim03, Y Bitrate    d = 0.8375   b = 0.7367   c = 0.7007
+[INFO] 2021-12-06 10:13:40,737 kodim03, U Bitrate    d = 0.4957   b = 0.4222   c = 0.4343
+[INFO] 2021-12-06 10:13:40,737 kodim03, V Bitrate    d = 0.4509   b = 0.4325   c = 0.4486
+[INFO] 2021-12-06 10:13:40,737 kodim03, Total Bitrate = 7.2390 = 2.2799 + 4.9591   Y = 2.2749   U = 1.3523   V = 1.3320
+[INFO] 2021-12-06 10:13:46,297 kodim19, Y Bitrate    d = 1.1127   b = 0.9716   c = 0.9579
+[INFO] 2021-12-06 10:13:46,297 kodim19, U Bitrate    d = 0.6531   b = 0.4669   c = 0.6096
+[INFO] 2021-12-06 10:13:46,297 kodim19, V Bitrate    d = 0.5942   b = 0.5075   c = 0.6223
+[INFO] 2021-12-06 10:13:46,297 kodim19, Total Bitrate = 9.2662 = 2.7704 + 6.4958   Y = 3.0423   U = 1.7296   V = 1.7240
+[INFO] 2021-12-06 10:13:51,948 kodim09, Y Bitrate    d = 0.9713   b = 0.8566   c = 0.8484
+[INFO] 2021-12-06 10:13:51,948 kodim09, U Bitrate    d = 0.5698   b = 0.4181   c = 0.5356
+[INFO] 2021-12-06 10:13:51,948 kodim09, V Bitrate    d = 0.5633   b = 0.4862   c = 0.6070
+[INFO] 2021-12-06 10:13:51,948 kodim09, Total Bitrate = 8.2479 = 2.3917 + 5.8562   Y = 2.6763   U = 1.5235   V = 1.6564
+[INFO] 2021-12-06 10:13:57,195 kodim24, Y Bitrate    d = 1.1111   b = 0.9399   c = 0.9229
+[INFO] 2021-12-06 10:13:57,195 kodim24, U Bitrate    d = 0.6202   b = 0.5032   c = 0.5155
+[INFO] 2021-12-06 10:13:57,196 kodim24, V Bitrate    d = 0.5838   b = 0.5141   c = 0.5377
+[INFO] 2021-12-06 10:13:57,196 kodim24, Total Bitrate = 9.2829 = 3.0344 + 6.2485   Y = 2.9739   U = 1.6390   V = 1.6356
+[INFO] 2021-12-06 10:14:02,939 kodim06, Y Bitrate    d = 1.1943   b = 0.9670   c = 0.9477
+[INFO] 2021-12-06 10:14:02,939 kodim06, U Bitrate    d = 0.6446   b = 0.5021   c = 0.5123
+[INFO] 2021-12-06 10:14:02,939 kodim06, V Bitrate    d = 0.5541   b = 0.4922   c = 0.5031
+[INFO] 2021-12-06 10:14:02,939 kodim06, Total Bitrate = 9.1803 = 2.8629 + 6.3174   Y = 3.1089   U = 1.6590   V = 1.5495
+[INFO] 2021-12-06 10:14:08,413 kodim14, Y Bitrate    d = 1.2191   b = 1.0139   c = 0.9945
+[INFO] 2021-12-06 10:14:08,413 kodim14, U Bitrate    d = 0.6166   b = 0.4828   c = 0.4930
+[INFO] 2021-12-06 10:14:08,413 kodim14, V Bitrate    d = 0.6113   b = 0.5480   c = 0.5523
+[INFO] 2021-12-06 10:14:08,413 kodim14, Total Bitrate = 9.6215 = 3.0899 + 6.5316   Y = 3.2275   U = 1.5924   V = 1.7116
+[INFO] 2021-12-06 10:14:14,114 kodim07, Y Bitrate    d = 0.8502   b = 0.7389   c = 0.7218
+[INFO] 2021-12-06 10:14:14,115 kodim07, U Bitrate    d = 0.5388   b = 0.4189   c = 0.4392
+[INFO] 2021-12-06 10:14:14,115 kodim07, V Bitrate    d = 0.5233   b = 0.4580   c = 0.4764
+[INFO] 2021-12-06 10:14:14,115 kodim07, Total Bitrate = 7.6717 = 2.5063 + 5.1654   Y = 2.3110   U = 1.3968   V = 1.4576
+[INFO] 2021-12-06 10:14:19,789 kodim18, Y Bitrate    d = 1.2058   b = 1.0860   c = 1.0689
+[INFO] 2021-12-06 10:14:19,789 kodim18, U Bitrate    d = 0.7205   b = 0.5545   c = 0.7353
+[INFO] 2021-12-06 10:14:19,789 kodim18, V Bitrate    d = 0.6796   b = 0.5758   c = 0.7276
+[INFO] 2021-12-06 10:14:19,789 kodim18, Total Bitrate = 10.6080 = 3.2538 + 7.3542   Y = 3.3607   U = 2.0104   V = 1.9831
+[INFO] 2021-12-06 10:14:19,789 Avg BPP Y   d = 1.0751   b = 0.9250   c = 0.9086
+[INFO] 2021-12-06 10:14:19,789 Avg BPP U   d = 0.6058   b = 0.4782   c = 0.5182
+[INFO] 2021-12-06 10:14:19,789 Avg BPP V   d = 0.5899   b = 0.5090   c = 0.5529
+[INFO] 2021-12-06 10:14:19,789 Avg BPP = 8.9653 = 2.8026 + 6.1627,   Y = 2.9087   U = 1.6022   V = 1.6518
+[INFO] 2021-12-06 10:14:19,789 Avg Enc time = 5.6389 = 0.3479 + 5.2910   d = 1.7274   b = 1.7486   c = 1.8149
+[INFO] 2021-12-06 10:14:46,625 	     batch_size:	24
+[INFO] 2021-12-06 10:14:46,626 	       ckpt_dir:	ckpt/
+[INFO] 2021-12-06 10:14:46,626 	      crop_size:	128
+[INFO] 2021-12-06 10:14:46,626 	       data_dir:	dataset/
+[INFO] 2021-12-06 10:14:46,626 	        dataset:	classic/
+[INFO] 2021-12-06 10:14:46,626 	     decay_rate:	0.1
+[INFO] 2021-12-06 10:14:46,626 	     decay_step:	1000
+[INFO] 2021-12-06 10:14:46,626 	     decode_dir:	decode_results/
+[INFO] 2021-12-06 10:14:46,626 	    empty_cache:	True
+[INFO] 2021-12-06 10:14:46,626 	     encode_dir:	encode_results/
+[INFO] 2021-12-06 10:14:46,626 	         epochs:	20000
+[INFO] 2021-12-06 10:14:46,626 	experiment_name:	mscoco_train/
+[INFO] 2021-12-06 10:14:46,626 	        gpu_num:	1
+[INFO] 2021-12-06 10:14:46,626 	    hidden_unit:	64
+[INFO] 2021-12-06 10:14:46,626 	      lambda_br:	1.0
+[INFO] 2021-12-06 10:14:46,626 	      lambda_ev:	1.0
+[INFO] 2021-12-06 10:14:46,626 	    lambda_pred:	1.0
+[INFO] 2021-12-06 10:14:46,626 	        log_dir:	log/
+[INFO] 2021-12-06 10:14:46,626 	             lr:	0.001
+[INFO] 2021-12-06 10:14:46,626 	    print_every:	1
+[INFO] 2021-12-06 10:14:46,626 	     save_every:	1
+[INFO] 2021-12-06 10:14:46,626 	        weights:	ckpt.pth
+[INFO] 2021-12-06 10:14:46,640 Parameters in Network Y d : 1852100.
+[INFO] 2021-12-06 10:14:46,666 Parameters in Network U d : 3029312.
+[INFO] 2021-12-06 10:14:46,685 Parameters in Network V d : 3030464.
+[INFO] 2021-12-06 10:14:46,698 Parameters in Network Y b : 1855556.
+[INFO] 2021-12-06 10:14:46,717 Parameters in Network U b : 3032768.
+[INFO] 2021-12-06 10:14:46,739 Parameters in Network V b : 3033920.
+[INFO] 2021-12-06 10:14:46,756 Parameters in Network Y c : 1859012.
+[INFO] 2021-12-06 10:14:46,781 Parameters in Network U c : 3036224.
+[INFO] 2021-12-06 10:14:46,807 Parameters in Network V c : 3037376.
+[INFO] 2021-12-06 10:14:48,657 Recovering from experiments/mscoco_train/ckpt/ckpt.pth ...
+[INFO] 2021-12-06 10:14:48,804 Recover completed.
+[INFO] 2021-12-06 10:14:55,112 monarch, Y Bitrate    d = 0.8264   b = 0.7687   c = 0.7664
+[INFO] 2021-12-06 10:14:55,112 monarch, U Bitrate    d = 0.7584   b = 0.5039   c = 0.4878
+[INFO] 2021-12-06 10:14:55,112 monarch, V Bitrate    d = 0.7581   b = 0.5479   c = 0.5368
+[INFO] 2021-12-06 10:14:55,112 monarch, Total Bitrate = 8.7430 = 2.7887 + 5.9543   Y = 2.3614   U = 1.7501   V = 1.8428
+[INFO] 2021-12-06 10:14:59,559 pepper, Y Bitrate    d = 1.0385   b = 1.1828   c = 1.0242
+[INFO] 2021-12-06 10:14:59,560 pepper, U Bitrate    d = 1.1951   b = 1.2131   c = 1.1811
+[INFO] 2021-12-06 10:14:59,560 pepper, V Bitrate    d = 1.1552   b = 1.3297   c = 1.1884
+[INFO] 2021-12-06 10:14:59,560 pepper, Total Bitrate = 14.2776 = 3.7696 + 10.5081   Y = 3.2455   U = 3.5893   V = 3.6733
+[INFO] 2021-12-06 10:15:01,103 coastguard, Y Bitrate    d = 1.3908   b = 0.9377   c = 0.8052
+[INFO] 2021-12-06 10:15:01,103 coastguard, U Bitrate    d = 0.4467   b = 0.3347   c = 0.3147
+[INFO] 2021-12-06 10:15:01,103 coastguard, V Bitrate    d = 0.3599   b = 0.3801   c = 0.3707
+[INFO] 2021-12-06 10:15:01,103 coastguard, Total Bitrate = 7.4304 = 2.0900 + 5.3404   Y = 3.1337   U = 1.0961   V = 1.1106
+[INFO] 2021-12-06 10:15:03,440 flowers, Y Bitrate    d = 1.0861   b = 0.9502   c = 0.9291
+[INFO] 2021-12-06 10:15:03,440 flowers, U Bitrate    d = 0.9943   b = 0.9653   c = 0.9604
+[INFO] 2021-12-06 10:15:03,440 flowers, V Bitrate    d = 0.9883   b = 0.9659   c = 0.9722
+[INFO] 2021-12-06 10:15:03,440 flowers, Total Bitrate = 12.6357 = 3.8236 + 8.8120   Y = 2.9655   U = 2.9201   V = 2.9264
+[INFO] 2021-12-06 10:15:06,698 zebra, Y Bitrate    d = 1.2474   b = 0.9129   c = 0.6554
+[INFO] 2021-12-06 10:15:06,698 zebra, U Bitrate    d = 0.6366   b = 0.4085   c = 0.4262
+[INFO] 2021-12-06 10:15:06,698 zebra, V Bitrate    d = 0.5839   b = 0.3921   c = 0.3909
+[INFO] 2021-12-06 10:15:06,698 zebra, Total Bitrate = 8.8556 = 3.2018 + 5.6538   Y = 2.8157   U = 1.4713   V = 1.3669
+[INFO] 2021-12-06 10:15:09,466 goldhill, Y Bitrate    d = 1.1326   b = 0.9301   c = 0.9173
+[INFO] 2021-12-06 10:15:09,466 goldhill, U Bitrate    d = 0.9539   b = 0.8721   c = 0.8806
+[INFO] 2021-12-06 10:15:09,466 goldhill, V Bitrate    d = 1.0560   b = 0.9456   c = 0.9735
+[INFO] 2021-12-06 10:15:09,466 goldhill, Total Bitrate = 12.2687 = 3.6070 + 8.6617   Y = 2.9800   U = 2.7066   V = 2.9752
+[INFO] 2021-12-06 10:15:13,344 lena, Y Bitrate    d = 0.9961   b = 0.9332   c = 0.9163
+[INFO] 2021-12-06 10:15:13,344 lena, U Bitrate    d = 1.1059   b = 1.0982   c = 1.0728
+[INFO] 2021-12-06 10:15:13,344 lena, V Bitrate    d = 1.0350   b = 1.0385   c = 1.0867
+[INFO] 2021-12-06 10:15:13,345 lena, Total Bitrate = 12.8150 = 3.5323 + 9.2827   Y = 2.8456   U = 3.2770   V = 3.1602
+[INFO] 2021-12-06 10:15:14,906 comic, Y Bitrate    d = 1.2195   b = 1.0214   c = 0.9557
+[INFO] 2021-12-06 10:15:14,906 comic, U Bitrate    d = 0.8260   b = 0.5977   c = 0.5590
+[INFO] 2021-12-06 10:15:14,906 comic, V Bitrate    d = 0.8074   b = 0.6240   c = 0.6116
+[INFO] 2021-12-06 10:15:14,906 comic, Total Bitrate = 11.0315 = 3.8092 + 7.2223   Y = 3.1966   U = 1.9827   V = 2.0430
+[INFO] 2021-12-06 10:15:19,874 ppt3, Y Bitrate    d = 0.4897   b = 0.3521   c = 0.3298
+[INFO] 2021-12-06 10:15:19,874 ppt3, U Bitrate    d = 0.2752   b = 0.1643   c = 0.1491
+[INFO] 2021-12-06 10:15:19,874 ppt3, V Bitrate    d = 0.2514   b = 0.1613   c = 0.1541
+[INFO] 2021-12-06 10:15:19,874 ppt3, Total Bitrate = 3.7078 = 1.3809 + 2.3269   Y = 1.1715   U = 0.5886   V = 0.5668
+[INFO] 2021-12-06 10:15:23,721 airplane, Y Bitrate    d = 0.9356   b = 0.7976   c = 0.7967
+[INFO] 2021-12-06 10:15:23,722 airplane, U Bitrate    d = 0.9316   b = 0.9450   c = 0.9158
+[INFO] 2021-12-06 10:15:23,722 airplane, V Bitrate    d = 0.9266   b = 0.9276   c = 0.9487
+[INFO] 2021-12-06 10:15:23,722 airplane, Total Bitrate = 11.2456 = 3.1205 + 8.1252   Y = 2.5298   U = 2.7925   V = 2.8028
+[INFO] 2021-12-06 10:15:27,516 mandrill, Y Bitrate    d = 1.4865   b = 1.3532   c = 1.3141
+[INFO] 2021-12-06 10:15:27,516 mandrill, U Bitrate    d = 1.4336   b = 1.3487   c = 1.3536
+[INFO] 2021-12-06 10:15:27,516 mandrill, V Bitrate    d = 1.3548   b = 1.3814   c = 1.3468
+[INFO] 2021-12-06 10:15:27,516 mandrill, Total Bitrate = 17.1518 = 4.7791 + 12.3727   Y = 4.1538   U = 4.1359   V = 4.0830
+[INFO] 2021-12-06 10:15:33,392 barbara, Y Bitrate    d = 1.1769   b = 1.0170   c = 0.8887
+[INFO] 2021-12-06 10:15:33,392 barbara, U Bitrate    d = 1.1036   b = 0.8699   c = 0.7700
+[INFO] 2021-12-06 10:15:33,392 barbara, V Bitrate    d = 1.0204   b = 0.7879   c = 0.7127
+[INFO] 2021-12-06 10:15:33,393 barbara, Total Bitrate = 11.8737 = 3.5266 + 8.3471   Y = 3.0827   U = 2.7435   V = 2.5210
+[INFO] 2021-12-06 10:15:33,393 Avg BPP Y   d = 1.0855   b = 0.9297   c = 0.8583
+[INFO] 2021-12-06 10:15:33,393 Avg BPP U   d = 0.8884   b = 0.7768   c = 0.7559
+[INFO] 2021-12-06 10:15:33,393 Avg BPP V   d = 0.8581   b = 0.7901   c = 0.7744
+[INFO] 2021-12-06 10:15:33,393 Avg BPP = 11.0030 = 3.2858 + 7.7173,   Y = 2.8735   U = 2.4211   V = 2.4227
+[INFO] 2021-12-06 10:15:33,393 Avg Enc time = 3.5847 = 0.2703 + 3.3144   d = 1.1552   b = 1.0897   c = 1.0695
