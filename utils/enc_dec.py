@@ -54,6 +54,38 @@ def encode_jpegxl(img_a, img_name, img_name_wo_space, H, W, ENC_DIR):
 
     return jpegxl_bpp, jpegxl_time
 
+def encode_convert_to_int_and_normalize(cdf_float, sym, check_input_bounds=False):
+  if check_input_bounds:
+    if cdf_float.min() < 0:
+      raise ValueError(f'cdf_float.min() == {cdf_float.min()}, should be >=0.!')
+    if cdf_float.max() > 1:
+      raise ValueError(f'cdf_float.max() == {cdf_float.max()}, should be <=1.!')
+    Lp = cdf_float.shape[-1]
+    if sym.max() >= Lp - 1:
+      raise ValueError
+  cdf_int = _convert_to_int_and_normalize(cdf_float, True)
+  return cdf_int
+
+def decode_convert_to_int_and_normalize(cdf_float, needs_normalization=True):
+    cdf_int = _convert_to_int_and_normalize(cdf_float, needs_normalization)
+    return cdf_int
+
+def _convert_to_int_and_normalize(cdf_float, needs_normalization):
+    PRECISION=16
+    Lp = cdf_float.shape[-1]
+    factor = torch.tensor(
+        2, dtype=torch.float32, device=cdf_float.device).pow_(PRECISION)
+    new_max_value = factor
+    if needs_normalization:
+        new_max_value = new_max_value - (Lp - 1)
+    cdf_float = cdf_float.mul(new_max_value)
+    cdf_float = cdf_float.round()
+    cdf = cdf_float.to(dtype=torch.int16, non_blocking=True)
+    if needs_normalization:
+        r = torch.arange(Lp, dtype=torch.int16, device=cdf.device)
+        cdf.add_(r)
+    return cdf    
+
 def encode_torchac(pmf_softmax, q_res, mask, img_name, color, loc, H, W, ENC_DIR, EMPTY_CACHE, frequency='low'):
     
     pmf_softmax = pmf_softmax.permute(0,2,3,1)
@@ -82,10 +114,9 @@ def encode_torchac(pmf_softmax, q_res, mask, img_name, color, loc, H, W, ENC_DIR
         cdf_encode = cdf[:,:,encode_idx,:]
         sym_encode = sym[:,:,encode_idx]
 
-        cdf_encode = cdf_encode.detach().cpu()
-        sym_encode = sym_encode.detach().cpu()
+        cdf_int = encode_convert_to_int_and_normalize(cdf_encode, sym_encode, check_input_bounds=True)
 
-        byte_stream = torchac.encode_float_cdf(cdf_encode, sym_encode, check_input_bounds=True)
+        byte_stream = torchac.encode_int16_normalized_cdf(cdf_int.detach().cpu(), sym_encode.detach().cpu())
 
     if frequency=='low':
         f_name = 'L'
@@ -170,9 +201,10 @@ def decode_torchac(pmf_softmax, img_name, mask, color, loc, ENC_DIR, EMPTY_CACHE
     else:
         cdf_decode = cdf[:,:,decode_idx,:]
 
-        cdf_decode = cdf_decode.detach().cpu()
+        cdf_int = decode_convert_to_int_and_normalize(cdf_decode, True)
 
-        decoded_sym = torchac.decode_float_cdf(cdf_decode, byte_stream)
+        decoded_sym = torchac.decode_int16_normalized_cdf(cdf_int.detach().cpu(), byte_stream)
+
         decoded_sym = torch.squeeze(var_or_cuda(decoded_sym))
 
         decoded_sym_freq = var_or_cuda(torch.zeros_like(mask, dtype=torch.int16))
