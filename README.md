@@ -31,9 +31,15 @@ characteristics. The network derives the image-specific optimal ratio of low/hig
 state-of-the-art performance for benchmark high-resolution datasets, outperforming both conventional learning-based and non-learning approaches.
 
 ## Brief Description of Our Proposed Method
-### <u>Illustration of the Overall Scheme</u>
-<p align="center"><img src="figure/framework.pdf" width="700"></p>
-<p align="center"><img src="figure/architecture.pdf" width="700"></p>
+### Framework of our compresion scheme
+<p align="center"><img src="figure/framework.png" width="700"></p>
+
+The framework of our compression scheme. Depending on the spatial location, each pixel is grouped as either $a,b,c,d$. The input image is split into subimages, which are sequentially compressed. The subimage $x_{YUV,a}$ is initially encoded using a conventional compression algorithm. The remaining subimages are compressed through deep networks, which receive the previously encoded subimages as input and compress the current subimage. The dotted arrow denotes that the corresponding subimage is currently being compressed. The compressed subimage is then used as an additional input for encoding the next subimage.
+
+### Architecture of LC-FDNet
+<p align="center"><img src="figure/architecture.png" width="700"></p>
+
+The architecture of LC-FDNet. In this figure, we consider the case of compressing $y=x_{Y,d}$ given $x_{in}=x_{YUV,a}$. AFD part first receives $x_{in}$ and determines each pixel as belonging to either low or high-frequency regions, using error variance map $\sigma_y$ and error variance threshold $\tau_y$. Afterward, LFC encodes the low-frequency region of subimage $y$. HFC then receives the encoded low-frequency region as additional input and compresses the remaining high-frequency region. The decoding process is provided in the Supplementary Material.
 
 ## Dataset
 Train Dataset
