@@ -27,7 +27,7 @@ state-of-the-art performance for benchmark high-resolution datasets, outperformi
 ## Dataset
 Train Dataset
 
-[DIV2K] (https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+[FLICKR2K] (https://github.com/limbee/NTIRE2017)
 
 Test Dataset
 
