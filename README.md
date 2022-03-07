@@ -30,6 +30,11 @@ as low or high-frequency regions, we also design a discriminating network that f
 characteristics. The network derives the image-specific optimal ratio of low/high-frequency components as a result. Experiments show that the proposed method achieves 
 state-of-the-art performance for benchmark high-resolution datasets, outperforming both conventional learning-based and non-learning approaches.
 
+## Brief Description of Our Proposed Method
+### <u>Illustration of the Overall Scheme</u>
+<p align="center"><img src="figure/framework.pdf" width="700"></p>
+<p align="center"><img src="figure/architecture.pdf" width="700"></p>
+
 ## Dataset
 Train Dataset
 
