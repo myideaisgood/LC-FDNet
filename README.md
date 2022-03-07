@@ -33,7 +33,7 @@ Test Dataset
 
 [DIV2K] (https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
-[CLIC] (http://challenge.compression.cc/tasks/)
+[CLIC] (http://clic.compression.cc/2019/challenge/)
 
 ## Brief explanation of contents
 
