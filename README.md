@@ -32,8 +32,8 @@ state-of-the-art performance for benchmark high-resolution datasets, outperformi
 
 ## Brief Description of Our Proposed Method
 ### <u>Illustration of the Overall Scheme</u>
-<p align="center"><img src="figure/framework.pdf" width="700"></p>
-<p align="center"><img src="figure/architecture.pdf" width="700"></p>
+<p align="center"><img src="figure/framework.png" width="700"></p>
+<p align="center"><img src="figure/architecture.png" width="700"></p>
 
 ## Dataset
 Train Dataset
