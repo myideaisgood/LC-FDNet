@@ -2,7 +2,7 @@ Implementation of "LC-FDNet : Learned Lossless Image Compression with Frequency 
 
 ## Environments
 - Ubuntu 18.04
-- [Tensorflow 1.13.1](http://www.tensorflow.org/)
+- Pytorch 1.7.0
 - CUDA 10.0.130 & cuDNN 7.6.5
 - Python 3.7.7
 
