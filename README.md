@@ -43,7 +43,7 @@ The architecture of LC-FDNet. In this figure, we consider the case of compressin
 
 ## Experimental Results
 
-<p align="center"><img src="figure/result.PNG" width="900"></p>
+<p align="center"><img src="figure/result.PNG" width="600"></p>
 
 Comparison of our method with other non-learning and learning-based codes on high-resolution benchmark dataset. We measure the performances in bits per pixel (bpp). Best performance is highlighted in bold and the second-best performance is denoted with *. The difference in percentage to our method is highlighted in green.
 
