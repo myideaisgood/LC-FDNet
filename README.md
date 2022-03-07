@@ -48,6 +48,13 @@ Test Dataset
     ├──> experiment_name 
          ├──> ckpt : trained models will be saved here
          └──> log  : log will be saved here
+|── dataset
+    ├──> dataset_name1 
+         ├──> train : training images of dataset_name1 should be saved here
+         └──> test  : test images of dataset_name1 should be saved here
+    ├──> dataset_name2
+         ├──> train : training images of dataset_name2 should be saved here
+         └──> test  : test images of dataset_name2 should be saved here         
 |── utils : files for utility functions
 |── config.py : configuration should be controlled only here 
 |── decode.py : decode compressed files to images
