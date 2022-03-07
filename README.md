@@ -1,4 +1,10 @@
-Implementation of "LC-FDNet : Learned Lossless Image Compression with Frequency Decomposition Network"
+# LC-FDNet
+
+# [LC-FDNet : Learned Lossless Image Compression with Frequency Decomposition Network] CVPR 2022
+
+Hochang Rhee, Yeong Il Jang, Seyun Kim, Nam Ik Cho
+
+[[Paper](To be Added)] [[Supplementary](To be Added)] [[Arxiv](https://arxiv.org/abs/2112.06417)]
 
 ## Environments
 - Ubuntu 18.04
