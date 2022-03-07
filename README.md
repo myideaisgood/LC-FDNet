@@ -41,6 +41,12 @@ The framework of our compression scheme. Depending on the spatial location, each
 
 The architecture of LC-FDNet. In this figure, we consider the case of compressing $y=x_{Y,d}$ given $x_{in}=x_{YUV,a}$. AFD part first receives $x_{in}$ and determines each pixel as belonging to either low or high-frequency regions, using error variance map $\sigma_y$ and error variance threshold $\tau_y$. Afterward, LFC encodes the low-frequency region of subimage $y$. HFC then receives the encoded low-frequency region as additional input and compresses the remaining high-frequency region. The decoding process is provided in the Supplementary Material.
 
+## Experimental Results
+
+<p align="center"><img src="figure/result.png" width="900"></p>
+
+Comparison of our method with other non-learning and learning-based codes on high-resolution benchmark dataset. We measure the performances in bits per pixel (bpp). Best performance is highlighted in bold and the second-best performance is denoted with *. The difference in percentage to our method is highlighted in green.
+
 ## Dataset
 Train Dataset
 
