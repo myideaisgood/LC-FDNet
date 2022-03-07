@@ -84,6 +84,8 @@ Test Dataset
 
 ```
 
+We use 'torchac' libaray as our arithmetic coder, which is available at https://github.com/fab-jul/torchac.
+
 ## Guidelines for Codes
 
 1. Install JPEG-XL
