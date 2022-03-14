@@ -122,3 +122,16 @@ python decode.py --gpu_num=0 --experiment_name='default/' --dataset='div2k/' --e
 This decodes the compressed files in 'encoded_results/' folder.
 
 The decoded result will be saved in 'decoded_results/'
+
+## Citation
+If you use the work released here for your research, please cite this paper. (Citation of CVPR version will be updated soon)
+
+```
+@article{rhee2021lc,
+  title={LC-FDNet: Learned Lossless Image Compression with Frequency Decomposition Network},
+  author={Rhee, Hochang and Jang, Yeong Il and Kim, Seyun and Cho, Nam Ik},
+  journal={arXiv preprint arXiv:2112.06417},
+  year={2021}
+}
+```
+
