@@ -124,14 +124,16 @@ This decodes the compressed files in 'encoded_results/' folder.
 The decoded result will be saved in 'decoded_results/'
 
 ## Citation
-If you use the work released here for your research, please cite this paper. (Citation of CVPR version will be updated soon)
+If you use the work released here for your research, please cite this paper. 
 
 ```
-@article{rhee2021lc,
-  title={LC-FDNet: Learned Lossless Image Compression with Frequency Decomposition Network},
-  author={Rhee, Hochang and Jang, Yeong Il and Kim, Seyun and Cho, Nam Ik},
-  journal={arXiv preprint arXiv:2112.06417},
-  year={2021}
+@InProceedings{Rhee_2022_CVPR,
+    author    = {Rhee, Hochang and Jang, Yeong Il and Kim, Seyun and Cho, Nam Ik},
+    title     = {LC-FDNet: Learned Lossless Image Compression With Frequency Decomposition Network},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {6033-6042}
 }
 ```
 
