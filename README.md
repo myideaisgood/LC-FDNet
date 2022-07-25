@@ -4,7 +4,7 @@
 
 Hochang Rhee, Yeong Il Jang, Seyun Kim, Nam Ik Cho
 
-[[Paper](To be Added)] [[Supplementary](To be Added)] [[Arxiv](https://arxiv.org/abs/2112.06417)]
+[[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Rhee_LC-FDNet_Learned_Lossless_Image_Compression_With_Frequency_Decomposition_Network_CVPR_2022_paper.pdf)] [[Supplementary](https://openaccess.thecvf.com/content/CVPR2022/supplemental/Rhee_LC-FDNet_Learned_Lossless_CVPR_2022_supplemental.pdf)] [[Arxiv](https://arxiv.org/abs/2112.06417)]
 
 ## Environments
 - Ubuntu 18.04
